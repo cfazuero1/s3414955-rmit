@@ -1,0 +1,4 @@
+string tourName
+string tourLevel
+---
+bool result

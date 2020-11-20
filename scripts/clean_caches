@@ -1,0 +1,15 @@
+#!/usr/bin/expect -f
+#! /bin/bash
+
+log_user 0
+
+spawn su
+expect "Password:*"
+send "r0but1\n"
+sleep 1
+# Now wait for a prompt and send the command to run
+expect "#" { send "sync\n" }
+expect "#" { send "echo 3 > /proc/sys/vm/drop_caches\n" }
+expect "#" { send "exec ssh-agent bash\n" }
+expect "#" { send "ssh-add /home/reem/.ssh/id_rsa_deploykey\n" }
+expect "#" { send "exit\n" }

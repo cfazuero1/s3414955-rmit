@@ -1,0 +1,7 @@
+rm -rf /home/reem/workspace/REEM/src/*
+cp -r ../src/* /home/reem/workspace/REEM/src
+cd /home/reem/workspace/REEM/src
+catkin_init_workspace
+cd ..
+catkin_make
+source /home/reem/workspace/REEM/devel/setup.bash

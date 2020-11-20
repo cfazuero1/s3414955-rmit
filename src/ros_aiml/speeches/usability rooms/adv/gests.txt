@@ -1,0 +1,1 @@
+[('aok', 1973), ('steeple', 2130), ('literally', 9661), ('steeple', 1923)]

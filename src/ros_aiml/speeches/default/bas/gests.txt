@@ -1,0 +1,1 @@
+[('steeple', 0.0), ('literally', 5666L), ('steeple', 2509L)]

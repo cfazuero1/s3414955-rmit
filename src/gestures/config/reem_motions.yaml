@@ -1,0 +1,198 @@
+play_motion:
+  motions:
+    arms_t:
+      joints: [torso_1_joint, torso_2_joint, head_1_joint, head_2_joint, arm_left_1_joint,
+        arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint,
+        arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint,
+        arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint]
+      points:
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.707, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0,
+          0.707, 0.0, 0.1, 0.0, 0.0, 0.0]
+        time_from_start: 0.0
+      meta:
+        name: Arms T
+        usage: posture
+        description: Both arms set straight pointing sideways at 45 degrees.
+    bow:
+      joints: [torso_1_joint, torso_2_joint, head_1_joint, head_2_joint, arm_left_1_joint,
+        arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint,
+        arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint,
+        arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint]
+      points:
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.35, 0.17, -0.9, 0.8, 0.1, -0.4, 0.0, 0.35,
+          0.17, -0.9, 0.8, 0.1, -0.4, 0.0]
+        time_from_start: 0.0
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.35, -0.5, 0.6109, 0.0, 0.0, 0.0, 0.0,
+          0.35, -0.5, 0.6109, 0.0, 0.0, 0.0]
+        time_from_start: 1.0
+      - positions: [0.0, 0.0, 0.0, 0.0, -0.4, 0.25, -0.1, 0.6109, 0.0, 0.0, 0.0, -0.4,
+          0.25, -0.1, 0.6109, 0.0, 0.0, 0.0]
+        time_from_start: 1.85
+      - positions: [0.0, 0.4, 0.0, 0.3, -0.1, 0.1, -0.05, 0.6109, 0.0, 0.0, 0.0, -0.1,
+          0.1, -0.05, 0.6109, 0.0, 0.0, 0.0]
+        time_from_start: 3.35
+      - positions: [0.0, 0.4, 0.0, 0.3, -0.1, 0.1, -0.05, 0.6109, 0.0, 0.0, 0.0, -0.1,
+          0.1, -0.05, 0.6109, 0.0, 0.0, 0.0]
+        time_from_start: 3.65
+      - positions: [0.0, 0.0, 0.0, 0.0, -0.4, 0.1, -0.05, 0.6109, 0.0, 0.0, 0.0, -0.4,
+          0.1, -0.05, 0.6109, 0.0, 0.0, 0.0]
+        time_from_start: 4.65
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.35, -0.5, 0.6109, 0.0, 0.0, 0.0, 0.0,
+          0.35, -0.5, 0.6109, 0.0, 0.0, 0.0]
+        time_from_start: 5.5
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.35, 0.17, -0.9, 0.8, 0.1, -0.4, 0.0, 0.35,
+          0.17, -0.9, 0.8, 0.1, -0.4, 0.0]
+        time_from_start: 6.5
+      meta:
+        name: Bow
+        usage: greet
+        description: Makes a short reverence with both arms back.
+    home:
+      joints: [torso_1_joint, torso_2_joint, head_1_joint, head_2_joint, arm_left_1_joint,
+        arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint,
+        arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint,
+        arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint]
+      points:
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+          0.0, 0.0, 0.0, 0.0, 0.0]
+        time_from_start: 0.0
+      meta:
+        name: Home
+        usage: posture
+        description: Both arms down and completely stretched.
+    wave:
+      joints: [torso_1_joint, torso_2_joint, head_1_joint, head_2_joint, arm_left_1_joint,
+        arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint,
+        arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint,
+        arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint]
+      points:
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.35, 0.17, -0.9, 0.8, 0.1, -0.4, 0.0, 0.35,
+          0.17, -0.9, 0.8, 0.1, -0.4, 0.0]
+        time_from_start: 0.0
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.1, 0.15, 0.0, 0.3, 0.0, 0.0, 0.0, 0.4, 0.15,
+          0.4, 2.0, -1.4, 0.6, 0.0]
+        time_from_start: 1.5
+      - positions: [0.0, 0.0, 0.0, 0.25, 0.1, 0.15, 0.0, 0.3, 0.0, 0.0, 0.0, 0.4,
+          0.4, -0.4, 2.0, -1.4, 0.6, 0.0]
+        time_from_start: 2.3
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.1, 0.15, 0.0, 0.3, 0.0, 0.0, 0.0, 0.4, 0.15,
+          0.4, 2.0, -1.4, 0.6, 0.0]
+        time_from_start: 3.3
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.35, 0.17, -0.9, 0.8, 0.1, -0.4, 0.0, 0.35,
+          0.17, -0.9, 0.8, 0.1, -0.4, 0.0]
+        time_from_start: 4.3
+      meta:
+        name: Wave
+        usage: greet
+        description: Waves with right hand and nods.
+    strong_arms:
+      joints: [arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, torso_1_joint, torso_2_joint, hand_right_index_joint, hand_right_middle_joint, hand_right_thumb_joint, hand_left_index_joint, hand_left_middle_joint, hand_left_thumb_joint, head_1_joint, head_2_joint]
+      points:
+      - positions: [1.3721, 1.3812, 0.0594, 2.0973, 1.5739, -0.7773, 0, 1.3721, 1.3812, 0.0594, 2.0973, 1.5739, -0.7773, 0, 0, -0.2417, 4.0000, 4.0000, 1.2458, 4.0000, 4.0000, 1.2458, 0, 0.2417]
+        time_from_start: 1.5
+      meta:
+        name: Strong Arms
+        usage: pose
+        description: Makes the REEM look like a macho man
+    literally:
+      joints: [arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_right_index_joint, hand_right_middle_joint, hand_right_thumb_joint, hand_left_index_joint, hand_left_middle_joint, hand_left_thumb_joint]
+      points:
+      - positions: [1.2218, 0.0576, 0.0000, 1.8699, -1.2819, 0.0000, 0.0000, 1.2217, 0.0576, 0.0000, 1.8698, -1.2819, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 1.0
+      - positions: [0.8724, 0.0575, 0.0000, 2.211, -1.2819, 0.0000, 0.0000, 0.8724, 0.0575, 0.0000, 2.2109, -1.2819, 0.0000, 0.0000, 3.6147, 3.6147, 0.0000, 3.6147, 3.6147, 0.0000]
+        time_from_start: 1.2
+      - positions: [1.2218, 0.0576, 0.0000, 1.8699, -1.2819, 0.0000, 0.0000, 1.2217, 0.0576, 0.0000, 1.8698, -1.2819, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 1.5
+      - positions: [0.8724, 0.0575, 0.0000, 2.211, -1.2819, 0.0000, 0.0000, 0.8724, 0.0575, 0.0000, 2.2109, -1.2819, 0.0000, 0.0000, 3.6147, 3.6147, 0.0000, 3.6147, 3.6147, 0.0000]
+        time_from_start: 1.8
+      - positions: [1.2218, 0.0576, 0.0000, 1.8699, -1.2819, 0.0000, 0.0000, 1.2217, 0.0576, 0.0000, 1.8698, -1.2819, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 2.2
+      meta:
+        name: Literal Fingers
+        usage: irony
+        description: Makes REEM "literally" talk about something.
+    aok:
+      joints: [arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_right_index_joint, hand_right_middle_joint, hand_right_thumb_joint, torso_1_joint, torso_2_joint, head_1_joint, head_2_joint]
+      points:
+      - positions: [1.3746, 0.3178, -0.8849, 1.6930, 0.0000, 0.6969, 0.2331, 2.5217, 0.0200, 1.5507, 0.3041, 0.0000, -0.3041, 0.0000]
+        time_from_start: 1.2
+      meta:
+        name: Thumbs Up
+        usage: approval
+        description: Right arm up with thumb up and hand clenched. Now doing circle sign.
+    power_pose:
+      joints: [arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_right_index_joint, hand_right_middle_joint, hand_right_thumb_joint, hand_left_index_joint, hand_left_middle_joint, hand_left_thumb_joint, head_1_joint, head_2_joint, torso_1_joint, torso_2_joint]
+      points:
+      - positions: [0.0863, 1.0464, -1.2548, 1.8825, 0.0000, 0.0000, 0.0000, 0.0863, 1.0463, -1.2547, 1.8825, 0.0000, 0.0000, 0.0000, 0.0200, 0.0200, 1.5506, 0.0200, 0.0200, 1.5507, 0.0000, 0.0868, 0.0000, 0.0361]
+        time_from_start: 1.0
+      meta:
+        name: Power Pose
+        usage: posture
+        description: Look super grumpy.
+    rewind:
+      joints: [arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_right_index_joint, hand_right_middle_joint, hand_right_thumb_joint, hand_left_index_joint, hand_left_middle_joint, hand_left_thumb_joint, head_1_joint, head_2_joint, torso_1_joint, torso_2_joint]
+      points:
+      - positions: [1.1563, 0.1877, -1.454, 1.7309, 1.0022, 0.0000, 0.0000, 1.1563, 0.1877, -1.9662, 1.5161, 1.0022, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 0.0
+      - positions: [1.3528, 0.2137, -1.7386, 1.9457, 1.0022, 0.0000, 0.0000, 1.6585, 0.1877, -1.7955, 1.5035, 1.0022, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 0.5
+      - positions: [1.0252, 0.5260, -1.7670, 1.7814, 0.6060, 0.0000, 0.0000, 1.1563, 0.1877, -1.4539, 1.7309, 1.0022, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 1.0
+      - positions: [1.5056, 0.1747, -1.8808, 1.3266, 1.3052, 0.0000, 0.0000, 1.1563, 0.4219, -1.5678, 1.9583, 1.3052, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 1.5
+      - positions: [1.1563, 0.1877, -1.454, 1.7309, 1.0022, 0.0000, 0.0000, 1.1563, 0.1877, -1.9662, 1.5161, 1.0022, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000]
+        time_from_start: 2.0
+      meta:
+        name: Rewind
+        usage: gesture
+        description: Tries to turn back time.
+    steeple:
+      joints: [torso_1_joint, torso_2_joint, arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_left_thumb_joint, hand_right_thumb_joint]
+      points:
+      - positions: [0.0, 0.0, 0.8990, -0.110, -1.344, 0.4801, 0.0262, -0.5970, 1.2794, 0.6886, -0.0439, -0.678, 0.7075, -0.5441, -0.8135, 1.4151, 0.9145, 0.9145]
+        time_from_start: 1.0
+      meta:
+        name: Steeple
+        usage: confidence
+        description: move both arms and do a triangle.
+    chop:
+      joints: [torso_1_joint, torso_2_joint, arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_left_thumb_joint, hand_right_thumb_joint]
+      points:
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        time_from_start: 0.0
+      - positions: [0.0, 0.0, 1.5470, 0.0555, -0.2736, 0.8336, 1.8997, 0.0044, -1.7253, 1.5298, 0.0112, -0.2499, 0.9727, 0.0, 0.0, 0.2326, 0.0, 0.0]
+        time_from_start: 1.0
+      - positions: [0.0, 0.0, 0.7588, 0.0555, -0.2736, 0.8336, 1.8996, 0.0044, -1.7253, 0.6536, 0.0111, -0.2499, 0.9727, 0.0, 0.0, 0.2326, 0.0, 0.0]
+        time_from_start: 1.6
+      meta:
+        name: chop
+        usage: emphasize
+        description: move both arms up and down.
+    giver:
+      joints: [torso_1_joint, torso_2_joint, arm_left_1_joint, arm_left_2_joint, arm_left_3_joint, arm_left_4_joint, arm_left_5_joint, arm_left_6_joint, arm_left_7_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_left_thumb_joint, hand_right_thumb_joint]
+      points:
+      - positions: [0.0, 0.0, 1.0916, 0.1769, 0.2260, 0.8338, 1.8995, 0.2691, -0.6978, 1.0916, 0.1328, 0.2023, 0.9347, 1.1054, 0.3895, 0.1744, 0.0, 0.0]
+        time_from_start: 1.0
+      - positions: [0.0, 0.0, 1.0916, 0.1769, 0.2260, 0.8338, 1.8995, 0.2691, -0.6978, 1.5471, 0.1328, 0.2023, 0.9346, 1.1053, 0.3895, -0.0194, 0.0, 0.0]
+        time_from_start: 1.5
+      - positions: [0.0, 0.0, 1.0916, 0.1769, 0.2260, 0.8338, 1.8995, 0.2691, -0.6978, 1.0916, 0.1328, 0.2023, 0.9347, 1.1054, 0.3895, 0.1744, 0.0, 0.0]
+        time_from_start: 2.0
+      - positions: [0.0, 0.0,  1.5298, 0.1769, 0.2260, 0.7833, 1.8994, -0.0196, -0.9693, 1.0916, 0.1328, 0.2023, 0.9347, 1.1054, 0.3895, 0.1744, 0.0, 0.0]
+        time_from_start: 2.5
+      - positions: [0.0, 0.0, 1.0916, 0.1769, 0.2260, 0.8338, 1.8995, 0.2691, -0.6978, 1.0916, 0.1328, 0.2023, 0.9347, 1.1054, 0.3895, 0.1744, 0.0, 0.0]
+        time_from_start: 3.0
+      - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        time_from_start: 4.0
+      meta:
+        name: giver
+        usage: select on of two options
+        description: move both arms up, move the right up side down and then left up side down.
+    rise_hand:
+      joints: [torso_1_joint, torso_2_joint, arm_right_1_joint, arm_right_2_joint, arm_right_3_joint, arm_right_4_joint, arm_right_5_joint, arm_right_6_joint, arm_right_7_joint, hand_left_thumb_joint, hand_right_thumb_joint]
+      points:
+      - positions: [0.0, 0.0, 2.4234, -0.1545, -0.3689, 0.9728, 0.0, 0.0, -1.3182, 0.0, 0.0]
+        time_from_start: 0.9
+      meta:
+        name: Rise Hand
+        usage: rise one hand
+        description: move the right arm up.

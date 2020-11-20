@@ -1,0 +1,16 @@
+<launch>
+  <arg name="namespace" default="/"/>
+
+  <group ns="$(arg namespace)">
+
+    <node pkg="tour_manager" type="location_service.py" name='location_server' output="screen"/>
+    <node pkg="tour_manager" type="tour_service.py" name='tour_server' output="screen"/>
+    <node pkg="tour_manager" type="scripted_brain.py" name='command_brain' output="screen"/>
+    <node pkg="tour_manager" type="voicenav.py" name='voice_nav' output="screen"/>
+    <node name="recognizer" pkg="ros_aiml" type="test.py" output="screen">
+        <param name="dict" value="$(find ros_aiml)/src/test.dic"/>
+        <param name="fsg" value="$(find ros_aiml)/src/test.fsg"/>
+    </node>
+
+  </group>
+</launch>

@@ -1,0 +1,26 @@
+<launch>
+  <arg name="namespace" default="/"/>
+
+  <group ns="$(arg namespace)">
+
+    <include file="$(find sound_play)/soundplay_node.launch"></include>
+
+    <node pkg="tour_manager" type="navigation.py" name='navigate_to_server' output="screen"/>
+    <node pkg="tour_manager" type="do_tours.py" name='do_tour_server' output="screen"/>
+
+
+
+    <node pkg="ros_aiml" type="google_recognizer.py" name='google_recognizer' output="screen"/>
+    <param name="aiml_path" value="$(find ros_aiml)/src" />
+     <node name="aiml_server" pkg="ros_aiml" type="aiml_server.py" output="screen">
+     </node>
+
+     <node name="aiml_tts" pkg="ros_aiml" type="aiml_watson_client.py" output="screen">
+     </node>
+     <node name="aiml_speech_recog" pkg="ros_aiml" type="aiml_speech_recog_client.py" output="screen">
+     </node>
+
+      <node pkg="ros_aiml" type="presentation_server.py" name='presentation' output="screen"/>
+
+  </group>
+</launch>

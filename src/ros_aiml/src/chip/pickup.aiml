@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 11/28/2011 -->
+<!-- -->
+<category><pattern>*</pattern>
+<template>
+<random>
+<li>Sorry, I did not understand your question properly but I will save it so one of our assistant at C.B.A. will respond that answer for you at the end of the tour. <system>rosrun ros_aiml save_question.py "<star />"</system></li>
+<li>Sorry, My brain does not have a response for that but I will save it so one of our assistant at C.B.A. will respond that answer for you at the end of the tour. <system>rosrun ros_aiml save_question.py "<star />"</system></li>
+<li>Sorry, I do not have the answer to that question at the moment but I will save it so one of our assistant at C.B.A. will respond that answer for you at the end of the tour. <system>rosrun ros_aiml save_question.py "<star />"</system></li>
+</random>
+</template>
+</category>
+</aiml>
+
+

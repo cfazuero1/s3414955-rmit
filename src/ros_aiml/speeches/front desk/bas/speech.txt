@@ -1,0 +1,1 @@
+{wave}Welcome to the tour! This is a{power_pose} basic level speech.{home}

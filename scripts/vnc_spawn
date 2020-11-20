@@ -1,0 +1,2 @@
+x11vnc -forever -many &
+curl http://10.234.2.30:8085/sage-vnc-ipaddr?10.234.2.240?0

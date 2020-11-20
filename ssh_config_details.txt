@@ -1,0 +1,25 @@
+#Add these to your ~/.ssh/config file
+
+#Jump on jupiter and make it accept your_public_key
+
+#You now have easy ssh access into the lab machines
+
+Host jupiter
+  HostName jupiter.csit.rmit.edu.au
+  User your_student_number
+  IdentityFile ~/.ssh/your_private_key
+  IdentitiesOnly yes
+
+Host reemlab
+  HostName 10.234.2.240
+  User reem
+  Port 22
+  IdentityFile ~/.ssh/your_private_key
+  ProxyCommand ssh -q jupiter exec nc %h %p 2>/dev/null
+
+Host reemlab2
+  HostName 10.234.2.50
+  User reem2
+  Port 22
+  IdentityFile ~/.ssh/your_private_key
+  ProxyCommand ssh -q jupiter exec nc %h %p 2>/dev/null

@@ -1,0 +1,1 @@
+[('chop', 7091), ('raise_hand', 3476), ('giver', 5984), ('strong_arms', 8226), ('steeple', 2633)]

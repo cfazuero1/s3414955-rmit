@@ -1,0 +1,27 @@
+<aiml version="1.0">
+<category>
+<pattern>KNOCK KNOCK</pattern>
+<template>Who's there?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>WHO IS THERE</that>
+<template><person/> Who?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>* WHO</that>
+<template>Ha ha very funny, <getname/></template>
+</category> 
+
+<category>
+<pattern>WHAT KIND OF TECHNOLOGIES OFFER THE VXLAB.</pattern>
+<template>virtual reality</template>
+</category>
+<category>
+<pattern>IS THE VXLAB AVALIABLE FOR ALL AGES.</pattern>
+<template>all ages</template>
+</category>
+</aiml>

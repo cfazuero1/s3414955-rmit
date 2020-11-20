@@ -1,0 +1,1 @@
+[('power_pose', 0.0), ('steeple', 9919L)]

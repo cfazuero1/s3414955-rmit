@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2016 RMIT.   -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>WHO IS LEROY</pattern>
+<template>Leroy is a plebian.</template>
+</category>
+<category><pattern>CHIP STOP</pattern>
+<template>Chip is stopping</template>
+</category>
+<category><pattern>CHIP FREEZE</pattern>
+<template><srai>CHIP STOP</srai></template>
+</category>
+<category><pattern>CHIP HALT</pattern>
+<template><srai>CHIP STOP</srai></template>
+</category>
+<category><pattern>CHIP ABORT</pattern>
+<template><srai>CHIP STOP</srai></template>
+</category>
+<category><pattern>CHIP SHUT DOWN</pattern>
+<template><srai>CHIP STOP</srai></template>
+</category>
+<category><pattern>CHIP TURN OFF</pattern>
+<template><srai>CHIP STOP</srai></template>
+</category>
+<category><pattern>CHIP SLOWER</pattern>
+<template>Chip is slowing down</template>
+</category>
+<category><pattern>CHIP SLOW DOWN</pattern>
+<template><srai>CHIP SLOWER</srai></template>
+</category>
+<category><pattern>CHIP FASTER</pattern>
+<template>Chip is going faster</template>
+</category>
+<category><pattern>CHIP SPEED UP</pattern>
+<template><srai>CHIP FASTER</srai></template>
+</category>
+<category><pattern>CHIP GO FORWARD</pattern>
+<template>Chip is going forward</template>
+</category>
+<category><pattern>CHIP GO AHEAD</pattern>
+<template><srai>CHIP GO FORWARD</srai></template>
+</category>
+<category><pattern>CHIP GO STRAIGHT</pattern>
+<template><srai>CHIP GO FORWARD</srai></template>
+</category>
+<category><pattern>CHIP GO BACK</pattern>
+<template>Chip is going back</template>
+</category>
+<category><pattern>CHIP GO BACKWARD</pattern>
+<template><srai>CHIP GO BACK</srai></template>
+</category>
+<category><pattern>CHIP GO BACK UP</pattern>
+<template><srai>CHIP GO BACK</srai></template>
+</category>
+<category><pattern>CHIP ROTATE *</pattern>
+<template>Chip is rotating <star index="1"/></template>
+</category>
+<category><pattern>CHIP TURN *</pattern>
+<template>Chip is turning <star index="1"/></template>
+</category>
+<category><pattern>CHIP * SPEED</pattern>
+<template>Chip is going <star index="1"/> speed</template>
+</category>
+<category><pattern>CHIP PAUSE SPEECH </pattern>
+<template>Chip is pausing speech</template>
+</category>
+<category><pattern>CHIP CONTINUE SPEECH </pattern>
+<template>Chip is continuing speech</template>
+</category>
+</aiml>

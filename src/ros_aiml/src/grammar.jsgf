@@ -1,0 +1,76 @@
+#JSGF V1.0;
+
+grammar REEM;
+
+<alphabet> = A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U |V | W | X | Y | Z ;
+
+<number> = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 9 ;
+
+<location> = FRONT DESK | OCCULUS | SELFIE STATION | USABILITY ROOMS | CONFERENCE ROOM | ENTRANCE | EXIT ;
+
+<subject> = MY ;
+
+<subject2> = YOU ;
+
+<object> = VXLAB ;
+
+<tour> = V X LAB | INNOVATION | DARLING HARBOUR ;
+
+<verb> = IS ;
+
+<verb2> = ARE ;
+
+<name> = RICO | LUKE | LEROY | ABRAHAM | CHRIS | MARIA | SUSIE | IAN | PEAKE | AHMED;
+
+<body_part> = HANDS ;
+
+<status> = ON | OFF ;
+
+<stop> = STOP | HALT | ABORT | FREEZE | SHUT DOWN | TURN OFF ;
+
+<slower> = SLOW DOWN | GO SLOWER ;
+
+<faster> = SPEED UP | GO FASTER ;
+
+<forward> = FORWARD | AHEAD | STRAIGHT ;
+
+<backward> = BACK | BACKWARD | BACK UP;
+
+<movements> = (ROTATE | TURN) (LEFT | RIGHT) ;
+
+<speed> = (QUARTER | HALF | FULL) SPEED ;
+
+<speech> = (PAUSE | CONTINUE) SPEECH ;
+
+<direction> = UP | DOWN ;
+
+<question> = WHO | WHAT ;
+
+<level> = BASIC | INTERMEDIATE | ADVANCE ;
+
+<introduction> = <subject> <object> <verb> <name> ; 
+
+<command> = <body_part> <direction> ;
+
+<greetings> = <question> <verb2> <subject2> ;
+
+<greet> = HELLO ;
+
+<add_tour> = OKAY CHIP ADD LOCATION <location> TO TOUR <tour>;
+
+<save_location> = OKAY CHIP SAVE THIS LOCATION AS <location> ;
+
+<go_location> = OKAY CHIP GO TO [LOCATION] <location> ;
+
+<do_tour> = OKAY CHIP EXECUTE TOUR <tour> IN <level> MODE ;
+
+<ask_name> = WHO <verb> <name> [<name>] ;
+
+<follow> = OKAY CHIP FOLLOW ME ;
+
+<ask_object> = WHAT IS THE <object> | WHAT KIND OF PROJECT <verb2> IN THE <object> ;
+
+<commands> = OKAY CHIP (<stop> | <slower> | <faster> | GO (<forward> | <backward>) | <movements> | <speed> | <speech>) ;
+
+public <reem> = <add_tour> | <save_location> | <go_location> | <do_tour> | <commands> | <follow> ;
+

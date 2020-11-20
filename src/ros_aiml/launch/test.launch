@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="recognizer" pkg="ros_aiml" type="test.py" output="screen">
+    <param name="dict" value="$(find ros_aiml)/src/test.dic"/>
+    <param name="fsg" value="$(find ros_aiml)/src/test.fsg"/>
+  </node>
+
+</launch>
